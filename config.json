@@ -1,6 +1,9 @@
 {
     "openai_key": "",
     "modules": [
-        "demo"
+        "demo",
+        "auth/login",
+        "user/user_dashboard",
+        "admin/admin_dashboard"
     ]
 }

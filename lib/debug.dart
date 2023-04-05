@@ -11,20 +11,6 @@ Widget debugView({
   return Material(
     child: Column(
       children: [
-        Container(
-          height: 40,
-          width: MediaQuery.of(context).size.width,
-          decoration: const BoxDecoration(
-            color: Colors.black,
-          ),
-          child: const Center(
-            child: Icon(
-              MdiIcons.circle,
-              size: 14.0,
-              color: Colors.white,
-            ),
-          ),
-        ),
         Expanded(
           child: Stack(
             children: [
@@ -65,7 +51,7 @@ Widget debugView({
                         height: 12.0,
                       ),
                       InkWell(
-                        onTap: () => Get.to( Container()),
+                        onTap: () => Get.to(Container()),
                         child: const Icon(
                           Icons.leaderboard,
                           color: Colors.white,

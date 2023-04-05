@@ -3,13 +3,23 @@ We believe, the class name must be unique.
 If there is a conflicting class name in this file,
 it means you have to rename it to something more unique.
 */
+export 'package:hyper_ui/module/admin/admin_dashboard/controller/admin_dashboard_controller.dart';
+export 'package:hyper_ui/module/admin/admin_dashboard/view/admin_dashboard_view.dart';
+export 'package:hyper_ui/module/auth/login/controller/login_controller.dart';
+export 'package:hyper_ui/module/auth/login/view/login_view.dart';
 export 'package:hyper_ui/module/demo/controller/demo_controller.dart';
 export 'package:hyper_ui/module/demo/view/demo_view.dart';
+export 'package:hyper_ui/module/demo/widget/demo_banner.dart';
+export 'package:hyper_ui/module/demo/widget/demo_featured_product.dart';
+export 'package:hyper_ui/module/demo/widget/demo_menu.dart';
+export 'package:hyper_ui/module/user/user_dashboard/controller/user_dashboard_controller.dart';
+export 'package:hyper_ui/module/user/user_dashboard/view/user_dashboard_view.dart';
 export 'package:hyper_ui/service/auth_service/auth_service.dart';
 export 'package:hyper_ui/service/main_storage_service/main_storage.dart';
 export 'package:hyper_ui/shared/theme/theme.dart';
 export 'package:hyper_ui/shared/theme/theme_config.dart';
 export 'package:hyper_ui/shared/theme/theme_dark.dart';
+export 'package:hyper_ui/shared/util/animation/default_animation.dart';
 export 'package:hyper_ui/shared/util/common/common.dart';
 export 'package:hyper_ui/shared/util/dialog/confirmation_dialog.dart';
 export 'package:hyper_ui/shared/util/dialog/show_custom_dialog.dart';
